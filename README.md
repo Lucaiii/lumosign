@@ -1,4 +1,5 @@
-# supreme-sniffle
+# lumosign
+
 the legit most basic signing service you'll ever get.
 all run on GitHub.
 
