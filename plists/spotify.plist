@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.spotifypp.client</string>
+				<string>com.spotify.client</string>
 				<key>bundle-version</key>
-				<string>2.0</string>
+				<string>8.4.3</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Spotify++</string>
+				<string>Spotify</string>
 			</dict>
 		</dict>
 	</array>
