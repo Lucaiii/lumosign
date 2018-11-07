@@ -3,7 +3,7 @@
 cd /Users/owenwatts/Documents/lumosign/
 
 
-: only works for one singular ipa currently which you can set right below this comment
+: only works (doesnt actually work currently) for one singular ipa currently which you can set right below this comment
 
 oneipa="spotify";
 
@@ -23,12 +23,14 @@ mv $validpath/ipastosign/$oneipa.ipa $validpath/ipastosign/$oneipa.zip;
 
 oneipazip="$validpath/ipastosign/$oneipa.zip";
 
-unzip $oneipa.zip;
+unzip -d ipastosign/ ipastosign/$oneipa.zip;
 
 cp $validpath/Payload/Appvalley.app/embedded.mobileprovision $ipastosign/Payload/Spotify.app/embedded.mobileprovision;
 
-zip $ipastosign/$oneipa;
+zip -r /Users/owenwatts/Documents/lumosign/ipastosign/Payload . -i $ipastosign/spotify2.zip;
 
 mv $validpath/ipastosign/$oneipa.zip $validpath/ipastosign/$oneipa.ipa;
+
+mv $validpath/valid.zip $validpath/valid.ipa;
 
 echo "done";
