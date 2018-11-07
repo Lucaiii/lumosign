@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.spotifypp.client</string>
+				<string>ml.jailed.wk113-offsetfinder</string>
 				<key>bundle-version</key>
-				<string>2.0</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Spotify++</string>
+				<string>UFOFinder</string>
 			</dict>
 		</dict>
 	</array>
