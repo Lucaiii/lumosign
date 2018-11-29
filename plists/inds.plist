@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.nerd.iNDS</string>
+				<string>net.nerd.iNDS</string>
 				<key>bundle-version</key>
 				<string>1.10.0</string>
 				<key>kind</key>
